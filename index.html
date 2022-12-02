@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container flex">
+        <div class="canvas flex">
+            <svg class="chart" width="500" height="500" viewBox="0 0 50 50">
+                <circle class="unit green" r="15.9" cx="50%" cy="50%"></circle>
+                <circle class="unit grey" r="15.9" cx="50%" cy="50%"></circle>
+                <circle class="unit white" r="15.9" cx="50%" cy="50%"></circle>
+                <circle class="unit yellow" r="15.9" cx="50%" cy="50%"></circle>
+            </svg>
+            <div class="legend flex">
+                <p class="legend-percent">
+                    <span class="large">
+                        72
+                    </span>
+                    <span class="percent">
+                        .7
+                    </span>
+                    <span class="percent-icon">
+                        %
+                    </span>
+                </p>
+                <h1 class="legend-title">Лояльность</h1>
+                <p class="legend-yellow">ниже среднего</p>
+                <p class="legend-content">по&nbsp;отрасли: FMCG<br> значений слева от&nbsp;медианы<br> 52.0%&nbsp;&mdash; 83.1%</p>
+                <div class="legend-rating flex">3.1</div>
+                <ul class="legend-list">
+                  <li class="item item-green flex">
+                    <h2 class="item-title">
+                        Промоутеры
+                    </h2>
+                    <div class="item-statistics flex">
+                        <span class="item-percent">
+                            32.0%
+                        </span>
+                        <div class="item-human flex">
+                            81
+                        </div>
+                    </div>
+                    <div class="scale green-scale">
+                        <div class="level green-level" style="width: 30%;"></div>
+                    </div>
+                  </li>
+                  <li class="item item-yellow flex">
+                    <h2 class="item-title">
+                        Скептики
+                    </h2>
+                    <div class="item-statistics flex">
+                        <span class="item-percent">
+                            39.1%
+                        </span>
+                        <div class="item-human flex">
+                            8
+                        </div>
+                    </div>
+                    <div class="scale yellow-scale">
+                        <div class="level yellow-level" style="width: 28%;"></div>
+                    </div>
+                  </li>
+                  <li class="item flex">
+                    <h2 class="item-title">
+                        Критики
+                    </h2>
+                    <div class="item-statistics flex">
+                        <span class="item-percent">
+                            79.8%
+                        </span>
+                        <div class="item-human flex">
+                            7
+                        </div>
+                    </div>
+                    <div class="scale red-scale">
+                        <div class="level red-level" style="width: 38%;"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+        </div>
+    </div>   
+</body>
+</html>
